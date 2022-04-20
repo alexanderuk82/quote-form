@@ -1,3 +1,12 @@
-@use './sass/abstract/' as *;
 
+@use "../abstract/" as *;
 
+// * ==========================================
+// *  
+// *   SE C T I O N     Q U O T E    F O R M
+// *
+// * ==========================================
+
+.quote{
+    background-color:red
+}

@@ -1,0 +1,26 @@
+@use "../abstract/" as *;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $html;
+
+  @include responsive(desktop) {
+    font-size: 48.5%;
+  }
+
+  @include responsive(large) {
+    font-size: 51.5%;
+  }
+}
+
+body {
+  width: 100%;
+  font-family: var(--main-font);
+  color: var(--blue);
+  font-size: map-get($fontSize, fontSize-s);
+}
