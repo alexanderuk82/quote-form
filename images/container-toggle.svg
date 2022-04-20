@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="41" viewBox="0 0 98 41">
+  <defs>
+    <filter id="container-toggle" x="0" y="0" width="98" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <rect id="container-toggle-2" data-name="container-toggle" width="98" height="41" rx="20.5" fill="#efefef"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#container-toggle)">
+      <rect id="container-toggle-3" data-name="container-toggle" width="98" height="41" rx="20.5" fill="#fff"/>
+    </g>
+  </g>
+</svg>

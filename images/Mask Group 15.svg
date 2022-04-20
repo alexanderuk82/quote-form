@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="492" height="41" viewBox="0 0 492 41">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_453" data-name="Rectangle 453" width="492" height="41" transform="translate(117 -7)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_406" data-name="Rectangle 406" width="35" height="35" transform="translate(-5.411 -4)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Rectangle_404" x="217.75" y="61.5" width="281" height="339" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-3">
+      <rect y="-8" width="229.859" height="221.43" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_405" data-name="Rectangle 405" width="17" height="17" rx="8.5" transform="translate(-17.411 104)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_15" data-name="Mask Group 15" transform="translate(-117 7)" clip-path="url(#clip-path)">
+    <g id="notifications" transform="translate(564.25 39)">
+      <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(5.411 4)" clip-path="url(#clip-path-2)">
+        <g id="dropbpx-noti" transform="translate(5 -12)" opacity="0">
+          <g transform="matrix(1, 0, 0, 1, -457.66, -38)" filter="url(#Rectangle_404)">
+            <rect id="Rectangle_404-2" data-name="Rectangle 404" width="248" height="306" rx="6" transform="translate(234.25 75)" fill="#fff"/>
+          </g>
+          <text id="Notifications-2" data-name="Notifications" transform="translate(-215.411 63)" fill="#0c214c" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Notifications</tspan></text>
+          <text id="All" transform="translate(-56.411 63)" fill="#0c214c" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">All</tspan></text>
+          <text id="Unread" transform="translate(-28.411 63)" fill="#afafaf" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Unread</tspan></text>
+          <line id="Line_101" data-name="Line 101" x2="248" transform="translate(-222.911 72.5)" fill="none" stroke="#707070" stroke-width="1"/>
+          <g id="Info_list" data-name="Info list">
+            <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-209.841 99.57)" clip-path="url(#clip-path-3)" style="isolation: isolate">
+              <g id="noti" transform="translate(209.841 -99.57)">
+                <g id="info" transform="translate(2 5)">
+                  <g id="notification" transform="translate(3)">
+                    <g id="Icon_ionic-md-information-circle-outline" data-name="Icon ionic-md-information-circle-outline" transform="translate(-218.216 91.195)">
+                      <path id="Path_241" data-name="Path 241" d="M13.43,5.405A8.021,8.021,0,1,1,7.755,7.755,7.991,7.991,0,0,1,13.43,5.405m0-2.03A10.055,10.055,0,1,0,23.484,13.43,10.053,10.053,0,0,0,13.43,3.375Z" fill="#11204b"/>
+                      <path id="Path_242" data-name="Path 242" d="M18.554,20.742h-2.03V14.7h2.03Zm0-8.024h-2.03v-2.03h2.03Z" transform="translate(-4.109 -2.285)" fill="#11204b"/>
+                    </g>
+                    <text id="Package_has_not_been_picked_up_in" data-name="Package has not been picked up in" transform="translate(-186.411 95)" fill="#5d6b87" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="13">Package has not been </tspan><tspan x="0" y="30">picked up in</tspan></text>
+                    <text id="_1_WEEK_AGO" data-name="1 WEEK AGO" transform="translate(-186.411 146)" fill="#afafaf" font-size="11.2" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">1 WEEK AGO</tspan></text>
+                  </g>
+                  <g id="remove" transform="translate(-35.411 130.714)">
+                    <path id="Icon_ionic-ios-close" data-name="Icon ionic-ios-close" d="M17.825,16.574,21.6,12.8a.885.885,0,0,0-1.251-1.251l-3.777,3.777L12.8,11.546A.885.885,0,1,0,11.545,12.8l3.777,3.777-3.777,3.777A.885.885,0,1,0,12.8,21.6l3.777-3.777L20.35,21.6A.885.885,0,1,0,21.6,20.351Z" transform="translate(10.141 -11.289)" fill="#b32d7d"/>
+                    <g id="tooltip" transform="translate(-884 -572.714)" opacity="0">
+                      <path id="box" d="M9.135,25a9.135,9.135,0,1,1,0-18.269H21.16L26.051,0l4.891,6.731H43.865a9.135,9.135,0,1,1,0,18.269Z" transform="translate(884 578)" fill="#11204b"/>
+                      <text id="remove-2" data-name="remove" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-16.68" y="0">remove</tspan></text>
+                    </g>
+                  </g>
+                  <g id="mark_as_read" data-name="mark as read" transform="translate(-17.411 104)">
+                    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(17.411 -104)" clip-path="url(#clip-path-4)">
+                      <g id="Ellipse_9" data-name="Ellipse 9" transform="translate(-15.411 106)" fill="#fff" stroke="#707070" stroke-width="1">
+                        <circle cx="6" cy="6" r="6" stroke="none"/>
+                        <circle cx="6" cy="6" r="5.5" fill="none"/>
+                      </g>
+                      <g id="tooltip-2" data-name="tooltip" transform="translate(-919.411 -462)" opacity="0">
+                        <path id="box-2" data-name="box" d="M12.788,35a12.789,12.789,0,0,1,0-25.577h9.171L27.034,0l5.075,9.423h10.1a12.789,12.789,0,0,1,0,25.577Z" transform="translate(883 578)" fill="#11204b"/>
+                        <text id="mark_as_read-2" data-name="mark as
+read" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-17.954" y="0">mark as</tspan><tspan x="-9.922" y="10">read</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <line id="Line_102" data-name="Line 102" x2="224" transform="translate(-208.911 175.5)" fill="none" stroke="#afafaf" stroke-width="1" stroke-dasharray="3"/>
+              </g>
+              <g id="noti-2" data-name="noti" transform="translate(210.27 -8.57)">
+                <g id="info-2" data-name="info" transform="translate(2 5)">
+                  <g id="notification-2" data-name="notification" transform="translate(3)">
+                    <g id="Icon_ionic-md-information-circle-outline-2" data-name="Icon ionic-md-information-circle-outline" transform="translate(-218.216 91.195)">
+                      <path id="Path_241-2" data-name="Path 241" d="M13.43,5.405A8.021,8.021,0,1,1,7.755,7.755,7.991,7.991,0,0,1,13.43,5.405m0-2.03A10.055,10.055,0,1,0,23.484,13.43,10.053,10.053,0,0,0,13.43,3.375Z" fill="#11204b"/>
+                      <path id="Path_242-2" data-name="Path 242" d="M18.554,20.742h-2.03V14.7h2.03Zm0-8.024h-2.03v-2.03h2.03Z" transform="translate(-4.109 -2.285)" fill="#11204b"/>
+                    </g>
+                    <text id="Package_has_not_been_picked_up_in-2" data-name="Package has not been picked up in" transform="translate(-186.411 95)" fill="#5d6b87" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="13">Package has not been </tspan><tspan x="0" y="30">picked up in</tspan></text>
+                    <text id="_1_WEEK_AGO-2" data-name="1 WEEK AGO" transform="translate(-186.411 146)" fill="#afafaf" font-size="11.2" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">1 WEEK AGO</tspan></text>
+                  </g>
+                  <g id="remove-3" data-name="remove" transform="translate(-35.411 130.714)">
+                    <path id="Icon_ionic-ios-close-2" data-name="Icon ionic-ios-close" d="M17.825,16.574,21.6,12.8a.885.885,0,0,0-1.251-1.251l-3.777,3.777L12.8,11.546A.885.885,0,1,0,11.545,12.8l3.777,3.777-3.777,3.777A.885.885,0,1,0,12.8,21.6l3.777-3.777L20.35,21.6A.885.885,0,1,0,21.6,20.351Z" transform="translate(10.141 -11.289)" fill="#b32d7d"/>
+                    <g id="tooltip-3" data-name="tooltip" transform="translate(-884 -572.714)" opacity="0">
+                      <path id="box-3" data-name="box" d="M9.135,25a9.135,9.135,0,1,1,0-18.269H21.16L26.051,0l4.891,6.731H43.865a9.135,9.135,0,1,1,0,18.269Z" transform="translate(884 578)" fill="#11204b"/>
+                      <text id="remove-4" data-name="remove" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-16.68" y="0">remove</tspan></text>
+                    </g>
+                  </g>
+                  <g id="mark_as_read-3" data-name="mark as read" transform="translate(-17.411 104)">
+                    <g id="Mask_Group_1-2" data-name="Mask Group 1" transform="translate(17.411 -104)" clip-path="url(#clip-path-4)">
+                      <g id="Ellipse_9-2" data-name="Ellipse 9" transform="translate(-15.411 106)" fill="#fff" stroke="#707070" stroke-width="1">
+                        <circle cx="6" cy="6" r="6" stroke="none"/>
+                        <circle cx="6" cy="6" r="5.5" fill="none"/>
+                      </g>
+                      <g id="tooltip-4" data-name="tooltip" transform="translate(-919.411 -462)" opacity="0">
+                        <path id="box-4" data-name="box" d="M12.788,35a12.789,12.789,0,0,1,0-25.577h9.171L27.034,0l5.075,9.423h10.1a12.789,12.789,0,0,1,0,25.577Z" transform="translate(883 578)" fill="#11204b"/>
+                        <text id="mark_as_read-4" data-name="mark as
+read" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-17.954" y="0">mark as</tspan><tspan x="-9.922" y="10">read</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <line id="Line_102-2" data-name="Line 102" x2="224" transform="translate(-208.911 175.5)" fill="none" stroke="#afafaf" stroke-width="1" stroke-dasharray="3"/>
+              </g>
+              <g id="noti-3" data-name="noti" transform="translate(210.27 82.43)">
+                <g id="info-3" data-name="info" transform="translate(2 5)">
+                  <g id="notification-3" data-name="notification" transform="translate(3)">
+                    <g id="Icon_ionic-md-information-circle-outline-3" data-name="Icon ionic-md-information-circle-outline" transform="translate(-218.216 91.195)">
+                      <path id="Path_241-3" data-name="Path 241" d="M13.43,5.405A8.021,8.021,0,1,1,7.755,7.755,7.991,7.991,0,0,1,13.43,5.405m0-2.03A10.055,10.055,0,1,0,23.484,13.43,10.053,10.053,0,0,0,13.43,3.375Z" fill="#11204b"/>
+                      <path id="Path_242-3" data-name="Path 242" d="M18.554,20.742h-2.03V14.7h2.03Zm0-8.024h-2.03v-2.03h2.03Z" transform="translate(-4.109 -2.285)" fill="#11204b"/>
+                    </g>
+                    <text id="Package_has_not_been_picked_up_in-3" data-name="Package has not been picked up in" transform="translate(-186.411 95)" fill="#5d6b87" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="13">Package has not been </tspan><tspan x="0" y="30">picked up in</tspan></text>
+                    <text id="_1_WEEK_AGO-3" data-name="1 WEEK AGO" transform="translate(-186.411 146)" fill="#afafaf" font-size="11.2" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">1 WEEK AGO</tspan></text>
+                  </g>
+                  <g id="remove-5" data-name="remove" transform="translate(-35.411 130.714)">
+                    <path id="Icon_ionic-ios-close-3" data-name="Icon ionic-ios-close" d="M17.825,16.574,21.6,12.8a.885.885,0,0,0-1.251-1.251l-3.777,3.777L12.8,11.546A.885.885,0,1,0,11.545,12.8l3.777,3.777-3.777,3.777A.885.885,0,1,0,12.8,21.6l3.777-3.777L20.35,21.6A.885.885,0,1,0,21.6,20.351Z" transform="translate(10.141 -11.289)" fill="#b32d7d"/>
+                    <g id="tooltip-5" data-name="tooltip" transform="translate(-884 -572.714)" opacity="0">
+                      <path id="box-5" data-name="box" d="M9.135,25a9.135,9.135,0,1,1,0-18.269H21.16L26.051,0l4.891,6.731H43.865a9.135,9.135,0,1,1,0,18.269Z" transform="translate(884 578)" fill="#11204b"/>
+                      <text id="remove-6" data-name="remove" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-16.68" y="0">remove</tspan></text>
+                    </g>
+                  </g>
+                  <g id="mark_as_read-5" data-name="mark as read" transform="translate(-17.411 104)">
+                    <g id="Mask_Group_1-3" data-name="Mask Group 1" transform="translate(17.411 -104)" clip-path="url(#clip-path-4)">
+                      <g id="Ellipse_9-3" data-name="Ellipse 9" transform="translate(-15.411 106)" fill="#fff" stroke="#707070" stroke-width="1">
+                        <circle cx="6" cy="6" r="6" stroke="none"/>
+                        <circle cx="6" cy="6" r="5.5" fill="none"/>
+                      </g>
+                      <g id="tooltip-6" data-name="tooltip" transform="translate(-919.411 -462)" opacity="0">
+                        <path id="box-6" data-name="box" d="M12.788,35a12.789,12.789,0,0,1,0-25.577h9.171L27.034,0l5.075,9.423h10.1a12.789,12.789,0,0,1,0,25.577Z" transform="translate(883 578)" fill="#11204b"/>
+                        <text id="mark_as_read-6" data-name="mark as
+read" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-17.954" y="0">mark as</tspan><tspan x="-9.922" y="10">read</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+                <line id="Line_102-3" data-name="Line 102" x2="224" transform="translate(-208.911 175.5)" fill="none" stroke="#afafaf" stroke-width="1" stroke-dasharray="3"/>
+              </g>
+              <g id="noti-4" data-name="noti" transform="translate(210.27 173.43)">
+                <g id="info-4" data-name="info" transform="translate(2 5)">
+                  <g id="notification-4" data-name="notification" transform="translate(3)">
+                    <g id="Icon_ionic-md-information-circle-outline-4" data-name="Icon ionic-md-information-circle-outline" transform="translate(-218.216 91.195)">
+                      <path id="Path_241-4" data-name="Path 241" d="M13.43,5.405A8.021,8.021,0,1,1,7.755,7.755,7.991,7.991,0,0,1,13.43,5.405m0-2.03A10.055,10.055,0,1,0,23.484,13.43,10.053,10.053,0,0,0,13.43,3.375Z" fill="#11204b"/>
+                      <path id="Path_242-4" data-name="Path 242" d="M18.554,20.742h-2.03V14.7h2.03Zm0-8.024h-2.03v-2.03h2.03Z" transform="translate(-4.109 -2.285)" fill="#11204b"/>
+                    </g>
+                    <text id="Package_has_not_been_picked_up_in-4" data-name="Package has not been picked up in" transform="translate(-186.411 95)" fill="#5d6b87" font-size="14.2" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="13">Package has not been </tspan><tspan x="0" y="30">picked up in</tspan></text>
+                    <text id="_1_WEEK_AGO-4" data-name="1 WEEK AGO" transform="translate(-186.411 146)" fill="#afafaf" font-size="11.2" font-family="Roboto-BoldItalic, Roboto" font-weight="700" font-style="italic"><tspan x="0" y="0">1 WEEK AGO</tspan></text>
+                  </g>
+                  <g id="remove-7" data-name="remove" transform="translate(-35.411 130.714)">
+                    <path id="Icon_ionic-ios-close-4" data-name="Icon ionic-ios-close" d="M17.825,16.574,21.6,12.8a.885.885,0,0,0-1.251-1.251l-3.777,3.777L12.8,11.546A.885.885,0,1,0,11.545,12.8l3.777,3.777-3.777,3.777A.885.885,0,1,0,12.8,21.6l3.777-3.777L20.35,21.6A.885.885,0,1,0,21.6,20.351Z" transform="translate(10.141 -11.289)" fill="#b32d7d"/>
+                    <g id="tooltip-7" data-name="tooltip" transform="translate(-884 -572.714)" opacity="0">
+                      <path id="box-7" data-name="box" d="M9.135,25a9.135,9.135,0,1,1,0-18.269H21.16L26.051,0l4.891,6.731H43.865a9.135,9.135,0,1,1,0,18.269Z" transform="translate(884 578)" fill="#11204b"/>
+                      <text id="remove-8" data-name="remove" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-16.68" y="0">remove</tspan></text>
+                    </g>
+                  </g>
+                  <g id="mark_as_read-7" data-name="mark as read" transform="translate(-17.411 104)">
+                    <g id="Mask_Group_1-4" data-name="Mask Group 1" transform="translate(17.411 -104)" clip-path="url(#clip-path-4)">
+                      <g id="Ellipse_9-4" data-name="Ellipse 9" transform="translate(-15.411 106)" fill="#fff" stroke="#707070" stroke-width="1">
+                        <circle cx="6" cy="6" r="6" stroke="none"/>
+                        <circle cx="6" cy="6" r="5.5" fill="none"/>
+                      </g>
+                      <g id="tooltip-8" data-name="tooltip" transform="translate(-919.411 -462)" opacity="0">
+                        <path id="box-8" data-name="box" d="M12.788,35a12.789,12.789,0,0,1,0-25.577h9.171L27.034,0l5.075,9.423h10.1a12.789,12.789,0,0,1,0,25.577Z" transform="translate(883 578)" fill="#11204b"/>
+                        <text id="mark_as_read-8" data-name="mark as
+read" transform="translate(911 598)" fill="#fff" font-size="10" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="-17.954" y="0">mark as</tspan><tspan x="-9.922" y="10">read</tspan></text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <line id="scroll_bar" data-name="scroll bar" y2="165" transform="translate(21.089 78.5)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="2"/>
+        </g>
+        <g id="bell-noti">
+          <path id="bell" d="M12.03,24.06a.2.2,0,0,0-.227-.227A2.06,2.06,0,0,1,9.76,21.79a.227.227,0,0,0-.453,0,2.5,2.5,0,0,0,2.5,2.5.2.2,0,0,0,.227-.227Zm11.576-4.086a1.84,1.84,0,0,1-1.816,1.816H15.436A3.633,3.633,0,0,1,11.8,25.422,3.633,3.633,0,0,1,8.172,21.79H1.816a1.745,1.745,0,0,1-1.277-.539A1.745,1.745,0,0,1,0,19.974a12.516,12.516,0,0,0,1.291-1.249A11.232,11.232,0,0,0,2.5,17.03a12.767,12.767,0,0,0,1.057-2.248,16.5,16.5,0,0,0,.709-2.922A23.3,23.3,0,0,0,4.54,8.171,5.9,5.9,0,0,1,6.2,4.164a7.015,7.015,0,0,1,4.355-2.248,1.411,1.411,0,0,1-.114-.553,1.312,1.312,0,0,1,.4-.965,1.369,1.369,0,0,1,1.929,0,1.315,1.315,0,0,1,.4.965,1.408,1.408,0,0,1-.114.553,7.015,7.015,0,0,1,4.355,2.248,5.9,5.9,0,0,1,1.66,4.008,23.192,23.192,0,0,0,.277,3.688,16.586,16.586,0,0,0,.709,2.922A12.7,12.7,0,0,0,21.11,17.03a11.3,11.3,0,0,0,1.206,1.7,12.422,12.422,0,0,0,1.291,1.249Z" transform="translate(0 0.289)" fill="#0c214c"/>
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="6" cy="6" r="6" transform="translate(12.803 0.289)" fill="#65b32d"/>
+          <text id="_4" data-name="4" transform="translate(15.589 10)" fill="#fff" font-size="11" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">4</tspan></text>
+        </g>
+      </g>
+    </g>
+    <line id="ACTIVE_BAR" data-name="ACTIVE BAR" x2="100" transform="translate(-152.5 65.5)" fill="none" stroke="#65b32d" stroke-linecap="round" stroke-width="2"/>
+    <g id="freight_links" data-name="freight links" transform="translate(-596 36.5)">
+      <text id="FAQ" transform="translate(1119.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">FAQ</tspan></text>
+      <text id="booking" transform="translate(1019.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Booking</tspan></text>
+      <text id="saved_quotes" data-name="saved quotes" transform="translate(870.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Saved Quotes</tspan></text>
+      <text id="documents" transform="translate(742.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Documents</tspan></text>
+      <text id="tools" transform="translate(667.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Tools</tspan></text>
+      <text id="reports" transform="translate(570.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Reports</tspan></text>
+      <text id="get_pricing" data-name="get pricing" transform="translate(444.25 21)" fill="#65b32d" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Get Pricing</tspan></text>
+      <text id="Freight_history" data-name="Freight history" transform="translate(275.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Freight History</tspan></text>
+      <text id="overview" transform="translate(155.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Overview</tspan></text>
+    </g>
+    <g id="ship_parcel" data-name="ship parcel" transform="translate(0 2.5)">
+      <text id="Orders_History" data-name="Orders      History" transform="translate(380 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0" xml:space="preserve">Orders      History</tspan></text>
+      <text id="Ship" transform="translate(302 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Ship</tspan></text>
+      <g id="quick_quote" data-name="quick quote" transform="translate(126)">
+        <text id="Quick_Quote-2" data-name="Quick Quote" transform="translate(29.25 21)" fill="#0c214c" font-size="19.5" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Quick Quote</tspan></text>
+        <path id="clock" d="M18.469-12.375A9.552,9.552,0,0,1,20.25-6.75a9.47,9.47,0,0,1-1.312,4.9A9.851,9.851,0,0,1,15.4,1.687,9.47,9.47,0,0,1,10.5,3,9.47,9.47,0,0,1,5.6,1.687,9.851,9.851,0,0,1,2.062-1.852,9.47,9.47,0,0,1,.75-6.75,9.494,9.494,0,0,1,1.9-11.32a9.862,9.862,0,0,1,3.117-3.492,9.515,9.515,0,0,1,4.359-1.641v-2.3H8.062a.542.542,0,0,1-.4-.164.542.542,0,0,1-.164-.4v-1.125a.542.542,0,0,1,.164-.4.542.542,0,0,1,.4-.164h4.875a.542.542,0,0,1,.4.164.542.542,0,0,1,.164.4v1.125a.542.542,0,0,1-.164.4.542.542,0,0,1-.4.164H11.625v2.3a9.725,9.725,0,0,1,5.344,2.391l.984-.984a.507.507,0,0,1,.375-.141.686.686,0,0,1,.422.141l.8.8a.686.686,0,0,1,.141.422.507.507,0,0,1-.141.375ZM10.5.75A7.336,7.336,0,0,0,14.25-.258,7.447,7.447,0,0,0,16.992-3,7.336,7.336,0,0,0,18-6.75a7.336,7.336,0,0,0-1.008-3.75,7.447,7.447,0,0,0-2.742-2.742A7.336,7.336,0,0,0,10.5-14.25a7.336,7.336,0,0,0-3.75,1.008A7.447,7.447,0,0,0,4.008-10.5,7.336,7.336,0,0,0,3-6.75,7.336,7.336,0,0,0,4.008-3,7.447,7.447,0,0,0,6.75-.258,7.336,7.336,0,0,0,10.5.75ZM9.937-4.5a.542.542,0,0,1-.4-.164.542.542,0,0,1-.164-.4v-6.375a.542.542,0,0,1,.164-.4.542.542,0,0,1,.4-.164h1.125a.542.542,0,0,1,.4.164.542.542,0,0,1,.164.4v6.375a.542.542,0,0,1-.164.4.542.542,0,0,1-.4.164Z" transform="translate(-0.75 21)" fill="#65b32d"/>
+      </g>
+    </g>
+  </g>
+</svg>

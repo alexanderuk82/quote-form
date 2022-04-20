@@ -1,0 +1,7 @@
+<svg id="basket" xmlns="http://www.w3.org/2000/svg" width="38" height="38.957" viewBox="0 0 38 38.957">
+  <g id="label">
+    <rect id="Rectangle_390" data-name="Rectangle 390" width="38" height="17" rx="8.5" fill="#65b32d"/>
+    <text id="_1058" data-name="1058" transform="translate(5 13)" fill="#fff" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">1058</tspan></text>
+  </g>
+  <path id="icon" d="M18.965,8.984,14.973,0h-2l3.992,8.984ZM10.982,0h-2L4.992,8.984h2ZM2,21.96a2,2,0,0,0,2,2h15.97a2,2,0,0,0,2-2l1-8.984H1L2,21.96Zm14.973-6.986h2l-1,6.986h-2Zm-5.989,0h2V21.96h-2Zm-4,0,1,6.986H5.989l-1-6.986H6.986ZM22.961,9.981H1a1,1,0,0,0-1,1v1H23.957v-1a1,1,0,0,0-1-1Z" transform="translate(6.905 15)" fill="#0c214c"/>
+</svg>

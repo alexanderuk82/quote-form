@@ -1,12 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Freight</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <img src="images/logo.png" alt="inxpress-logo" class="header__logo" />
+
+        <form class="input">
+          <button class="input__search">
+            <img src="images/search.svg" alt="search" />
+          </button>
+          <input
+            type="text"
+            class="input__tracking"
+            placeholder="Tracking number"
+          />
+        </form>
+
+        <div class="toggle">
+          <input type="checkbox" class="switch" id="check" />
+          <label for="check" class="label" id="circle"></label>
+
+          <div class="toggle__icon">
+            <!-- !Box -icon -->
+            <button class="toggle__icon--box" id="box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 17.847 19.408"
+              >
+                <g
+                  id="Icon_feather-codesandbox"
+                  data-name="Icon feather-codesandbox"
+                  transform="translate(-5.817 34.521)"
+                  opacity="0.49"
+                >
+                  <path
+                    id="Path_213"
+                    data-name="Path 213"
+                    d="M20.981,15.831V8.5a1.833,1.833,0,0,0-.916-1.585L13.656,3.249a1.83,1.83,0,0,0-1.831,0L5.416,6.914A1.833,1.833,0,0,0,4.5,8.5v7.331a1.833,1.833,0,0,0,.916,1.585l6.409,3.666a1.83,1.83,0,0,0,1.831,0l6.409-3.666A1.833,1.833,0,0,0,20.981,15.831Z"
+                    transform="translate(2 -37)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_214"
+                    data-name="Path 214"
+                    d="M11.25,6.315l3.232,1.868,3.232-1.868"
+                    transform="translate(0.258 -38.726)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_215"
+                    data-name="Path 215"
+                    d="M7.732,23.6V19.868L4.5,18"
+                    transform="translate(2 -40.854)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_216"
+                    data-name="Path 216"
+                    d="M27.982,18,24.75,19.868V23.6"
+                    transform="translate(-5.002 -40.854)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_217"
+                    data-name="Path 217"
+                    d="M4.9,10.44l8.046,3.627L21,10.44"
+                    transform="translate(1.789 -39.569)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_218"
+                    data-name="Path 218"
+                    d="M18,25.24V18"
+                    transform="translate(-3.26 -40.854)"
+                    fill="none"
+                    stroke="#afafaf"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </svg>
+
+              <p class="toggle__icon--text visible" id="ship-text">
+                ship
+              </p>
+            </button>
+
+            <!-- !Truck icon -->
+
+            <button class="toggle__icon--box" id="Truck">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 22.346 15.642"
+              >
+                <path
+                  id="Icon_awesome-truck-moving"
+                  data-name="Icon awesome-truck-moving"
+                  d="M21.693,9.418,19.651,7.376a2.235,2.235,0,0,0-1.582-.653H16.76V3.367A1.116,1.116,0,0,0,15.642,2.25H1.117A1.116,1.116,0,0,0,0,3.367V15.1a2.786,2.786,0,0,0,5.028,1.662A2.786,2.786,0,0,0,10.056,15.1,2.943,2.943,0,0,0,10,14.54h5.7a2.684,2.684,0,0,0-.056.559,2.793,2.793,0,1,0,5.587,0,2.943,2.943,0,0,0-.056-.559h.615a.56.56,0,0,0,.559-.559V11A2.227,2.227,0,0,0,21.693,9.418Zm-18.9,6.8A1.117,1.117,0,1,1,3.911,15.1,1.121,1.121,0,0,1,2.793,16.216Zm4.469,0A1.117,1.117,0,1,1,8.38,15.1,1.121,1.121,0,0,1,7.263,16.216ZM16.76,8.4h1.309a.555.555,0,0,1,.395.164l1.512,1.512H16.76Zm1.676,7.821A1.117,1.117,0,1,1,19.553,15.1,1.121,1.121,0,0,1,18.436,16.216Z"
+                  transform="translate(0 -2.25)"
+                  fill="#afafaf"
+                  opacity="0.38"
+                />
+              </svg>
+              <p class="toggle__icon--text" id="freight-text">
+                Freight
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__right">
+
+        <!-- !Menu for freight  -->
+        <nav class="nav nav__freight">
+          <ul class="nav__list" id="navbarNav">
+            <div class="nav__list links visibility"> 
+              <li class="nav__item">
+                <a href="#" class="nav__link">Overview</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">freight history</a>
+              </li>
+              <li class="nav__item active-link">
+                <a href="#" class="nav__link">get pricing</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Reports</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">tools</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">saved quotes</a>
+              </li>
+
+              <li class="nav__item">
+                <a href="#" class="nav__link">FAQ</a>
+              </li>
+              <form class="input responsive-display">
+                <button class="input__search">
+                  <img src="images/search.svg" alt="search" />
+                </button>
+                <input
+                  type="text"
+                  class="input__tracking"
+                  placeholder="Tracking number"
+                />
+              </form>
+            </div>
+
+            <a href="#" class="nav__icons" id="bell">
+              <img src="images/bell-noti.svg" alt="notifications" />
+            </a>
+            <!-- !Notifications section -->
+            <div class="notification hidden">
+              <div class="notification__header">
+                <div class="notification__header__left">
+                  <span>Notifications</span>
+                </div>
+                <div class="notification__header__right">
+                  <span>All</span>
+                  <span>Unread</span>
+                </div>
+              </div>
+
+              <div class="notification__content">
+                <!-- !Notification-List -->
+
+                <!-- !first notification -->
+                <div class="notification__content__list">
+                  <img src="images/icon-info.svg" alt="information" />
+
+                  <div class="notification__content__list__message">
+                    <p>Package hans not been picked up in</p>
+                    <small>1 week ago</small>
+                  </div>
+
+                  <div class="notification__content__list__action">
+                    <div class="notification__content__list__action__tooltip">
+                      <!-- !Mark as read -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          mark as
+                          <br />
+                          read
+                        </span>
+                        <img src="images/read.svg" alt="mark as read" />
+                      </div>
+
+                      <!-- !Remove notification -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          remove
+                        </span>
+                        <img
+                          src="images/icon-close-notification.svg"
+                          alt="delete notification"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !second notification -->
+                <div class="notification__content__list">
+                  <img src="images/icon-info.svg" alt="information" />
+
+                  <div class="notification__content__list__message">
+                    <p>Package hans not been picked up in</p>
+                    <small>1 week ago</small>
+                  </div>
+
+                  <div class="notification__content__list__action">
+                    <div class="notification__content__list__action__tooltip">
+                      <!-- !Mark as read -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          mark as
+                          <br />
+                          read
+                        </span>
+                        <img src="images/read.svg" alt="mark as read" />
+                      </div>
+
+                      <!-- !Remove notification -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          remove
+                        </span>
+                        <img
+                          src="images/icon-close-notification.svg"
+                          alt="delete notification"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !third notification -->
+                <div class="notification__content__list">
+                  <img src="images/icon-info.svg" alt="information" />
+
+                  <div class="notification__content__list__message">
+                    <p>Package hans not been picked up in</p>
+                    <small>1 week ago</small>
+                  </div>
+
+                  <div class="notification__content__list__action">
+                    <div class="notification__content__list__action__tooltip">
+                      <!-- !Mark as read -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          mark as
+                          <br />
+                          read
+                        </span>
+                        <img src="images/read.svg" alt="mark as read" />
+                      </div>
+
+                      <!-- !Remove notification -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          remove
+                        </span>
+                        <img
+                          src="images/icon-close-notification.svg"
+                          alt="delete notification"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- !fourth notification -->
+                <div class="notification__content__list">
+                  <img src="images/icon-info.svg" alt="information" />
+
+                  <div class="notification__content__list__message">
+                    <p>Package hans not been picked up in</p>
+                    <small>1 week ago</small>
+                  </div>
+
+                  <div class="notification__content__list__action">
+                    <div class="notification__content__list__action__tooltip">
+                      <!-- !Mark as read -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          mark as
+                          <br />
+                          read
+                        </span>
+                        <img src="images/read.svg" alt="mark as read" />
+                      </div>
+
+                      <!-- !Remove notification -->
+                      <div
+                        class="notification__content__list__action__tooltip--text"
+                      >
+                        <span class="tooltip-text">
+                          remove
+                        </span>
+                        <img
+                          src="images/icon-close-notification.svg"
+                          alt="delete notification"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="nav__icons">
+              <img src="images/settings-icon.svg" alt="settign" />
+            </a>
+
+            <img class="flags" src="images/Usa-flag.svg" alt="country" />
+
+            <button class="menu-icon" type="button">
+              <img src="images/menu-hamburguer.svg" alt="menu" />
+            </button> 
+          </ul>
+        </nav>
+
+
+        <!-- !Menu ship parcel -->
+        <nav class="nav nav__ship">
+          <div class="nav__list">
+            <div class="nav__list links visibility">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Quick quote</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">ship</a>
+            </li>
+            <li class="nav__item active-link">
+              <a href="#" class="nav__link">orders</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">history</a>
+            </li>
+
+            <form class="input responsive-display">
+              <button class="input__search">
+                <img src="images/search.svg" alt="search" />
+              </button>
+              <input
+                type="text"
+                class="input__tracking"
+                placeholder="Tracking number"
+              />
+            </form>
+          </div>
+            <a href="#" class="nav__icons">
+              <img
+                src="images/basket.svg"
+                alt="notifications"
+                style="transform: translateY(-7px);"
+              />
+            </a>
+            <a href="#" class="nav__icons">
+              <img src="images/settings-icon.svg" alt="settign" />
+            </a>
+
+            <img class="flags" src="images/Usa-flag.svg" alt="country" />
+            <button class="menu-icon" type="button">
+              <img src="images/menu-hamburguer.svg" alt="menu" />
+            </button> 
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+      <!-- !SECTION FORM QUOTE -->
+
+
+      
+
+
+    <!-- !Boostrap 5 JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+  </body>
 </html>
+
+
