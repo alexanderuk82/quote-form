@@ -7,6 +7,8 @@
   --green: rgba(101, 179, 45, 1);
   --light-gray: rgb(187, 187, 187);
 
+  --medium-gray: hsl(0, 0%, 44%);
+
   --field-background: rgb(240, 240, 240);
 
   --border-color: rgb(206, 206, 206);
@@ -24,6 +26,13 @@ $fontSize: (
   'fontSize-s': 1.6rem,
   'fontSize-xs': 1.3rem,
   'fontSize-s2': 1.1rem,
+  'title-section':1.8rem
+  'title-box':2rem
+
+);
+$fontWeight: (
+'extra-bold':900,
+'medium':500,
 );
 
 // Different Variables and classes

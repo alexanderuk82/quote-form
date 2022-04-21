@@ -3,6 +3,7 @@
   --blue: rgba(12, 33, 76, 1);
   --green: rgba(101, 179, 45, 1);
   --light-gray: rgb(187, 187, 187);
+  --medium-gray: hsl(0, 0%, 44%);
   --field-background: rgb(240, 240, 240);
   --border-color: rgb(206, 206, 206);
   --main-font: "Roboto", sans-serif;
@@ -69,8 +70,33 @@
   transform: translateY(-1rem);
 }
 
-.quote {
-  background-color: red;
+.quote__breadcrumb {
+  background-color: var(--blue);
+  padding: 1.8rem;
+}
+.quote__title {
+  color: #fff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin: 0;
+}
+.quote__form {
+  margin: 4rem 0;
+  padding-inline: 3rem;
+}
+.quote__container {
+  background-color: #fff;
+  border-radius: 0.9rem;
+  border: var(--border-color);
+  box-shadow: var(--box-shadow);
+  padding: 3rem 2rem;
+}
+.quote__title-box {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: var(--medium-gray);
+  font-weight: 500;
 }
 
 .header {

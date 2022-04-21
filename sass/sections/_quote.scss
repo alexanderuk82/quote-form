@@ -7,6 +7,48 @@
 // *
 // * ==========================================
 
+
 .quote{
-    background-color:red
+
+    &__breadcrumb{
+        background-color: var(--blue);
+        padding: 1.8rem;
+
+    }
+
+    &__title{
+        color: #fff;
+        font-size: map-get($fontSize, title-section );
+        text-transform: uppercase;
+        font-weight: map-get($fontWeight, extra-bold);
+        margin: 0;
+    }
+    
+    &__form{
+        margin: 4rem 0;
+        padding-inline: 3rem;
+        
+    }
+
+    &__container{
+        background-color: #fff;
+        border-radius: .9rem;
+        border: var(--border-color);
+        box-shadow: var(--box-shadow);
+        padding: 3rem 2rem;
+    }
+    
+    &__information{
+        
+        
+        
+    }
+    
+    &__title-box{
+        font-size: map-get($fontSize, title-box );
+        text-transform: capitalize;
+        color: var(--medium-gray);
+        font-weight: map-get($fontWeight, medium);
+    }
+    
 }
